@@ -18,6 +18,45 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "188d1605-9b39-4ef1-9577-f0b857ba792f",
+                "41646162-6bea-4af9-a310-d9452c9853d1"
+              ],
+              "containedElements": [
+                "c830517b-7881-48b3-9549-40ad847b80d1"
+              ]
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "6fe3e03e-4040-45b1-8a67-2c556129d031",
+            "source": {
+              "x": 310,
+              "y": -340
+            },
+            "target": {
+              "x": 590,
+              "y": -110
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": -270
+              }
+            ]
+          },
+          {
             "position": {
               "x": 0,
               "y": -340
@@ -162,7 +201,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "6fe3e03e-4040-45b1-8a67-2c556129d031"
+              ]
             },
             "labels": [
               "Data Flow"
@@ -176,7 +217,12 @@
               "cell": "f6b1cdc1-911f-4289-a7fd-b62d433c7ceb",
               "port": "6af129c3-352c-49c6-9d19-f7382523cc52"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 480,
+                "y": -190
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -209,7 +255,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "6fe3e03e-4040-45b1-8a67-2c556129d031"
+              ]
             },
             "labels": [
               "Data Flow"
